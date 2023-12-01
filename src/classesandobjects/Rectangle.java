@@ -11,10 +11,10 @@ package classesandobjects;
 public class Rectangle {
     //variables
     static String shapeType = "rectangle";
-    private int length;
-    private int width;
-    private String colour;
-    private boolean isFilled;
+    public int length;
+    public int width;
+    public String colour;
+    public boolean isFilled;
 
     
     //getting and setting for the Rectangle
@@ -101,8 +101,8 @@ public class Rectangle {
 
     public static int calculateArea(int length, int width) {
         return length * width;
-    }
+    }}
     //calculating Parameter
-    public int calculateParimeter(){
-        return 2*(length + width);
-}
+//    public int calculateParimeter(){
+//        return 2*(length + width);
+//}
