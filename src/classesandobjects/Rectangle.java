@@ -65,10 +65,10 @@ public class Rectangle {
     
     
     public Rectangle() {
-        length = 5;
-        width = 3;
-        colour = "yellow";
-        isFilled = true;
+        length = 10;
+        width = 25;
+        colour = "red";
+        isFilled = false;
     }
     //method overloading - same method name, different input parameters
     //they can do different things
