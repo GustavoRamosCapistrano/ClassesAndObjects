@@ -27,10 +27,12 @@ public class ClassesAndObjects {
         Rectangle rect1 = new Rectangle();
         Rectangle rect2 = new Rectangle(10,5,"blue", true);
         
+
         System.out.println(rect1.length);
         System.out.println(rect2.length);
         rect3 = new Rectangle(4,5,"red",false);
         
+        //This area gona print the new methods created
         System.out.println("testing new methods");
         System.out.println(rect1.calculateArea());
         System.out.println(rect2.calculateArea());

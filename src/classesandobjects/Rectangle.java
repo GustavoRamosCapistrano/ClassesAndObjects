@@ -9,13 +9,15 @@ package classesandobjects;
  * @author Gustavo
  */
 public class Rectangle {
-    //
+    //variables
     static String shapeType = "rectangle";
     private int length;
     private int width;
     private String colour;
     private boolean isFilled;
 
+    
+    //getting and setting for the Rectangle
     public static String getShapeType() {
         return shapeType;
     }
@@ -86,11 +88,12 @@ public class Rectangle {
         this.colour = colour;
         this.isFilled = true;
     }
-    
+    //calculating area
     public int calculateArea(){
         return length * width;
         
     }
+    //calculating Parameter
     public int calculateParimeter(){
         return 2*(length + width);
 }
