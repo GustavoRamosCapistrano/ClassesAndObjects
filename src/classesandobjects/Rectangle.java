@@ -11,10 +11,10 @@ package classesandobjects;
 public class Rectangle {
     //
     static String shapeType = "rectangle";
-    public int length;
-    public int width;
-    public String colour;
-    public boolean isFilled;
+    private int length;
+    private int width;
+    private String colour;
+    private boolean isFilled;
 
     public static String getShapeType() {
         return shapeType;
