@@ -16,7 +16,7 @@ public class ClassesAndObjects {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[] circleRadiuses = {2,5,8};
+        int[] circleRadiuses = {4,10,16};
         String[] cicleColours = {"yellow","green","pink"};
         
         
