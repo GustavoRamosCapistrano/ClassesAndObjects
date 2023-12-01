@@ -9,13 +9,15 @@ package classesandobjects;
  * @author Gustavo
  */
 public class Rectangle {
-    //
+    //variables
     static String shapeType = "rectangle";
     private int length;
     private int width;
     private String colour;
     private boolean isFilled;
 
+    
+    //getting and setting for the Rectangle
     public static String getShapeType() {
         return shapeType;
     }

@@ -26,11 +26,12 @@ public class ClassesAndObjects {
         Rectangle rect3;
         Rectangle rect1 = new Rectangle();
         Rectangle rect2 = new Rectangle(9,7,"blue", true);
-        
+        //checking the lengh of the Rectangles
         System.out.println(rect1.length);
         System.out.println(rect2.length);
         rect3 = new Rectangle(4,5,"red",false);
         
+        //This area gona print the new methods created
         System.out.println("testing new methods");
         System.out.println(rect1.calculateArea());
         System.out.println(rect2.calculateArea());
