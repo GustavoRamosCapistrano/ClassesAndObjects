@@ -25,7 +25,7 @@ public class ClassesAndObjects {
         
         Rectangle rect3;
         Rectangle rect1 = new Rectangle();
-        Rectangle rect2 = new Rectangle(9,7,"blue", true);
+        Rectangle rect2 = new Rectangle(10,5,"blue", true);
         
         System.out.println(rect1.length);
         System.out.println(rect2.length);
