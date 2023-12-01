@@ -17,7 +17,7 @@ public class ClassesAndObjects {
      */
     public static void main(String[] args) {
         int[] circleRadiuses = {2,5,8};
-        String[] cicleColours = {"yellow","green","pink"};
+        String[] cicleColours = {"Red","Blue","Grey"};
         
         
         
