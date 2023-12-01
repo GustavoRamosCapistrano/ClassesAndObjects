@@ -9,6 +9,7 @@ package classesandobjects;
  * @author Gustavo
  */
 public class Rectangle {
+
     //
     static String shapeType = "rectangle";
     public int length;
@@ -29,23 +30,25 @@ public class Rectangle {
     }
 
     public void setLength(int length) {
-        if (length > 0){    
-        this.length = length;
-    } else {
-            System.out.println("length must be positive");   
+        if (length > 0) {
+            this.length = length;
+        } else {
+            System.out.println("length must be positive");
         }
     }
+
     public int getWidth() {
         return width;
     }
 
     public void setWidth(int width) {
-        if (width > 0){
-                this.width = width;
-    }else {
+        if (width > 0) {
+            this.width = width;
+        } else {
             System.out.println("width must be positive");
         }
     }
+
     public String getColour() {
         return colour;
     }
@@ -61,15 +64,14 @@ public class Rectangle {
     public void setIsFilled(boolean isFilled) {
         this.isFilled = isFilled;
     }
-    
-    
-    
+
     public Rectangle() {
         length = 10;
         width = 25;
         colour = "red";
         isFilled = false;
     }
+
     //method overloading - same method name, different input parameters
     //they can do different things
     public Rectangle(int length, int width, String colour, boolean isFilled) {
@@ -86,15 +88,17 @@ public class Rectangle {
         this.colour = colour;
         this.isFilled = true;
     }
-    
-    public int calculateArea(){
+
+    public int calculateArea() {
         return length * width;
-        
+
     }
-    public int calculateParimeter(){
-        return 2*(length + width);
-}
-    public static int calculateArea(int length, int width){
+
+    public int calculateParimeter() {
+        return 2 * (length + width);
+    }
+
+    public static int calculateArea(int length, int width) {
         return length * width;
     }
 }
