@@ -88,11 +88,12 @@ public class Rectangle {
         this.colour = colour;
         this.isFilled = true;
     }
-    
+    //calculating area
     public int calculateArea(){
         return length * width;
         
     }
+    //calculating Parameter
     public int calculateParimeter(){
         return 2*(length + width);
 }
